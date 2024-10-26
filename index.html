@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joseph Muchiri Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: black;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 25px;
+            color: white;
+        }
+        nav ul li a:hover {
+            color: red;
+        }
+        .container {
+            padding-top: 100px;
+            padding-bottom: 40px;
+        }
+        .start {
+            font-size: 50px;
+        }
+        .name {
+            color: red;
+            font-size: 30px;
+            font-family: cursive;
+        }
+        .skill {
+            font-family: cursive;
+            color: black;
+            font-size: 26px;
+        }
+        .image img {
+            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+            object-fit: cover;
+            transform: rotate(-40deg);
+        }
+        footer {
+            text-align: center;
+            width: 100%;
+            padding: 10px 0;
+            color: black;
+            background-color: #f8f9fa;
+        }
+        #contact {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        #contact h2 {
+            font-size: 28px;
+            color: black;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 24px;
+            color: red;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="container" id="home">
+    <div class="row">
+        <div class="col-md-8">
+            <h2 class="start">Hi, I'm</h2> 
+            <h1 class="name">JOSEPH KAHIGA</h1>
+            <p><i class="skill">A FRONT END DEVELOPER AND A JUNIOR DATA SCIENTIST</i></p>
+            <p style="font-size: 22px;">I combine creativity and analytical skills to build engaging, <br>user-friendly web interfaces while leveraging data-driven <br> insights to enhance functionality.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="PROFILE.jpg" alt="Image of portfolio" class="img-fluid" title="My image" style="width: 80%; height: auto;">
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="container">
+    <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:muchirikahigajoseph@gmail.com">muchirikahigajoseph@gmail.com</a></p>
+    <p>Phone: <a href="tel:0111739389">0111739389</a></p>
+    <div class="social-icons">
+        <a href="https://x.com/Amanormalkid?t=IPhH2Hb6EEOjXbkl0AyniA&s=09" target="_blank">X</a>
+        <a href="https://www.facebook.com/profile.php?id=100078445821196" target="_blank">Facebook</a>
+        <a href="https://github.com/bangke254" target="_blank">GitHub</a>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 Joseph Kahiga Muchiri. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
